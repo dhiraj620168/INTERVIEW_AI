@@ -13,7 +13,7 @@ import notesRouter from "./routes/notes.route.js";
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://interview-ai-5l6n.onrender.com",
     credentials:true
 }))
 
