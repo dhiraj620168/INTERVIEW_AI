@@ -13,7 +13,7 @@ import InterviewReport from "./pages/InterviewReport";
 
 import NotesGenerator from "./pages/NotesGenerator";
 
-export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://backend-interviewiq.onrender.com";
 
 function App() {
   const dispatch = useDispatch();
